@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100&display=swap');
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr 1fr .2fr .8fr .2fr;
+    justify-content: center;
+    height: 100%;
+    gap: 15px;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+body{
+    background-color: #f3f2ef;
+}
+
+
+header{
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.navigation{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.navigation a{
+    text-decoration: none;
+    display: block;
+    padding: .6em;
+    color:#323864
+}
+
+.frontpic{
+    background-image: url(imgs/bedroom1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    text-align: center;
+}
+
+.imagetext{
+    color: white;
+    font-size: 4rem;
+    padding: 80px;
+    font-weight: 500;
+}
+.navigation a:hover{
+    font-weight: bold;
+}
+
+.services{
+    display: grid;
+    grid-template-rows: .8fr .1fr .8fr .1fr;
+    grid-template-columns: 1fr;
+    justify-content: center; 
+    justify-items: center; 
+    align-items: center; 
+    margin: 20px;
+
+}
+
+.interiordesign{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin: 0px 0px 0px 45px;
+}
+
+.intdes-btn{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.staging{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    margin: 0px 0px 0px 42px;
+}
+
+.stage-btn{
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+.servicepic{
+    width: 90%;
+}
+
+.textblurb{
+    margin: 0px 30px;
+    color:white;
+    padding: 10px;
+    text-align: center;
+}
+
+.one{
+    background-color: #323864; 
+}
+
+.two{
+    background-color: #adab54;
+}
+
+.picture{
+    background-image: url(imgs/shelves.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+footer{
+    background-color: #323864;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    padding: 1px;
+}
+
+button{
+    color: white;
+    background-color:#adab54;
+    width: 130px;
+    border: none;
+    align-self: center;
+    margin: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+    
+}
+button:hover{
+    background-color:#323864
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.column{
+    flex: 100%;
+    max-width: 100%;
+}
+
+.column img{
+    width: 90%;
+    margin: 10px 0px;
+}
+
+.service-header{
+    text-align: center;
+    color:#323864;
+    background-color: #adab54;
+    padding: 20px 30px;
+}
+
+.service-header h1{
+    font-weight: 600;
+    margin:0px 0px 10px 0px;
+}
+
+.service-header p{
+    color: white;
+    font-weight: 300;
+    margin: 0px 35px;
+}
+
+.center-btn{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.about-page{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .6fr .6fr;
+    height: 100%;
+    width: 100%;
+
+}
+
+.erinfur{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    text-align: center;
+    background-color:#d8d1bd;
+}
+
+.erinfur img{
+    width: 60%;
+}
+
+.erinfur h1{
+    color:#323864;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.abouttext{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    padding: 15px;
+    color: white;
+    font-size: 1.5rem;
+    background-color: #d8d1bd;
+}
+
+
+form{
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 10px 20px;
+
+}
+
+form h1{
+    color:#323864;
+    text-align: center;
+    font-weight: 600;
+}
+
+fieldset{
+    border-radius: 6px;
+    border: none;
+}
+
+input[type="text"], input[type="email"],textarea{
+    background: #d8d1bd;
+    border: 1px solid transparent;
+    height: 20px;
+    margin: 0;
+    outline: 0;
+    width: 90%;
+    padding: 15px;
+    color:#323864;
+    margin-bottom: 20px;
+    transition: all 200ms;
+}
+
+input::placeholder, textarea::placeholder{
+    color:white;
+    margin: 10px;
+}
+
+input:hover, input:focus, textarea:hover, textarea:focus{
+    border: 2px solid #adab54;
+
+}
+
+label{
+    font-size: 1.2em;
+    margin-bottom:10px;
+    display: block;
+}
+
+.contact-page{
+    display: grid;
+    grid-template-rows: .5fr .6fr;
+    grid-template-columns: 1fr;
+    background-color: #f3f2ef;
+
+}
+
+.contactinfo button{
+    width: 50%;
+    margin: auto auto auto 120px;
+}
+
+.contactinfo{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+
+.contactimg{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-self: center;
+}
+
+.contactimg img{
+    width: 100%;
+
+}
+/* ipad breakpoint */
+@media screen and (min-width: 780px){
+    .column{
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    .about-page{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .erinfur{
+        grid-row: 1/2;
+        grid-column: 1/2;
+        padding: 10px 20px;
+    }
+    .erinfur img{
+        width: 100%;
+    }
+    .abouttext{
+        grid-row: 1/2;
+        grid-column: 2/4;
+        padding: 40px;
+        font-size: 1.7rem;
+    }
+
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1.6fr .2fr 2fr .2fr ;
+    }
+
+    .textblurb{
+        margin: 0px 200px;
+    }
+    .services{
+        display: grid;
+        grid-template-rows: 1fr .1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 0px;
+    }
+
+
+    
+    .interiordesign{
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+    
+    .intdes-btn{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    
+    .staging{
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+    
+    .stage-btn{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+
+   
+
+
+}
+
+/* big screen breakpoint */
+@media screen and (min-width: 992px){
+    .column{
+        flex: 25%;
+        max-width: 25%;
+    }
+
+    .about-page{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .erinfur{
+        grid-row: 1/2;
+        grid-column: 1/2;
+        
+    }
+    .erinfur img{
+        width: 90%;
+    }
+    .abouttext{
+        grid-row: 1/2;
+        grid-column: 2/4;
+        font-size: 1.9rem;
+    }
+
+    .contact-page{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    .contactinfo{
+        grid-row:1/2;
+        grid-column: 1/2;
+    }
+    
+    .contactimg{
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+
+
+    
+}
